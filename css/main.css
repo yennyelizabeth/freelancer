@@ -1,3 +1,196 @@
-/*
- * Estilos de tu proyecto
- */
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+  position: relative;
+}
+
+ header {
+ position: fixed;
+ background-color: #2c3e50;
+ top: 0;
+ height: 100px;
+ width: 100%;
+ z-index: 1000;
+ }
+
+.inline-block {
+  display: inline-block;
+}
+
+.padding-header-top {
+  padding-top: 10px;
+}
+
+header .start-bootstrap {
+width: 33%;
+vertical-align: middle;
+text-align: center;
+height: 60px;
+}
+
+header .empty{
+width: 33%;
+vertical-align: middle;
+text-align: center;
+}
+
+header .menu{
+width: 33%;
+text-decoration: none;
+vertical-align: middle;
+position: relative;
+top: 35px;
+padding: 2px;
+height: 60px;
+}
+
+section {
+  position: relative;
+  top: 40px;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  height: 600px;
+  width: 100%;
+}
+
+.part-one {
+  background: #18bc9c;
+}
+
+.part-two {
+    background: white;
+    position: relative;
+}
+
+.part-three {
+    background: #18bc9c;
+    position: relative;
+}
+
+.part-four {
+  background: white;
+  position: relative;
+}
+
+.part-five {
+  background: #2c3e50;
+  position: relative;
+  height: 400px;
+  width: inherit;
+}
+
+section .part-two-text {
+  display: inherit;
+  text-align: center;
+}
+
+div .part-two-text {
+  width : 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+figure{
+  position:absolute;
+  top: 90px;
+  left: 520px;
+}
+
+.m-0 {
+margin: 0px;
+}
+
+.text{
+  position: absolute;
+  text-align: center;
+  top: 380px;
+  left: 450px;
+}
+
+.caja {
+      width: 250px;
+      padding left: 25px;
+      padding-top: 25px;
+      padding-bottom: 5px;
+      margin: 10px;
+      box-sizing: border-box;
+      float: left;
+}
+
+.caja-empty {
+  width: 280px;
+  height: 180px;
+  padding: 5px;
+  margin: 0px;
+  box-sizing: border-box;
+  float: left;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  position:relative;
+  display:inline-block;
+  max-width: 100% ;
+}
+
+.row {
+  margin: 0px;
+  box-sizing: border-box;
+  float: left;
+  width: 1500px;
+  height: 220px;
+}
+
+.about {
+  position: relative;
+}
+
+.column {
+  width: 250px;
+  display: inline-block;
+  position: relative;
+  left:  400px;
+}
+
+.form {
+position: relative;
+left: 500px;
+height: 300px;
+}
+
+.text-color-white {
+  color:white;
+}
+
+.contact {
+  width: 30%;
+  height: 100px;
+  position: relative;
+  left: 10px;
+  display: inline-block;
+}
+
+.icons-contact-web{
+  width: 30%;
+  height: 100px;
+  position: relative;
+  left: 250px;
+  display: inline-block;
+}
+
+.about-freelancer {
+  width: 30%;
+  height: 100px;
+  position: relative;
+  left: 500px;
+  display: inline-block;
+}
